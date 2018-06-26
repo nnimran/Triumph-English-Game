@@ -1,0 +1,23 @@
+Images 
+
+2.jpg 		https://pixabay.com
+aboutus.png 	https://pixabay.com/en/against-the-current-fish-silhouettes-1356079/
+contactus.png	https://pixabay.com
+nav.png         https://www.iconfinder.com/search/?q=navigation&price=free
+
+
+CSS
+style.css 	http://w3layouts.com
+bootstrap.css 	http://w3layouts.com
+jquery.countdownTimer.css 	http://harshen.github.io/jquery-countdownTimer/css/
+
+
+
+
+JS
+
+introtoapps.min.js 		http://www.introtoapps.com/sit708/libraries/
+jquery.countdownTimer.js 	http://harshen.github.io/jquery-countdownTimer/js
+bootstrap.min.js 		http://w3layouts.com
+jquery-1.11.1.min.js 		http://w3layouts.com
+

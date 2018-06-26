@@ -1,0 +1,207 @@
+ <head>
+
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="keywords" content="Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+   Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+   <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+   <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+   <!-- Custom Theme files -->
+   <link href="css/style.css" rel='stylesheet' type='text/css' />
+   <script src="js/jquery-1.11.1.min.js"></script>
+   <script type="text/javascript" src="js/introtoapps.min.js"></script>
+   <script type="text/javascript" src="js/jquery.countdownTimer.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/jquery.countdownTimer.css" />
+   <script type="text/javascript" src="js/triumphEngScript.js"></script>
+
+
+</head>
+<body>
+
+  <!-- Div start-home -->
+  <div id="homebutton" class="header">
+		<div class="header-top">
+			<div class="container">
+			<div class="head-nav" id="headerscreen" style="display:block">
+				<div class="logo">
+          <h1><span>Triumph English Grammar</span></h1>
+				</div>
+				<div class="clearfix"></div>
+
+        <span class="menu"></span>
+        <div class="top-menu">
+          <ul>
+            <li><a class="color1" id="home">Home</a></li>
+            <li><a class="color2" id="game1"> Game 1</a></li>
+            <li><a class="color3" id="game2"> Game 2 </a></li>
+            <li><a class="color4" id="about">About Us </a></li>
+            <li><a class="color5" id="contact">Contact Us</a></li>
+            <div class="clearfix"> </div>
+          </ul>
+        </div>
+        
+        <script>
+        $( "span.menu" ).click(function() {
+          $( ".top-menu" ).slideToggle( "slow", function() {
+            // Animation complete.
+          });
+        });
+      </script>
+
+			</div>
+		</div>
+	</div>
+
+	 <!-- Div Home screen-->
+  <div id="homescreen">
+   <img src="images/2.jpg" alt="">
+
+ </div>
+
+
+   <!-- Game 1 START-->
+
+ <div id="game1screen" style="background-color:rgba(224, 226, 220, 0.611765)">
+   <br><br>
+
+     <br>
+      <h2> Game 1 : Please Select correct Verb :</h2>
+      <br><br>
+      <div style="background-color:#868080">
+        <h2>Time Remaining :</h2>
+
+        <div id="countdowntimer"><span id="timer1"><span></div>
+      </div>
+      <br><br>
+
+      <p> Q1]
+            Which film did you
+        <select id="game1question1">
+          <option value="said">see?</option>
+          <option value="saw">saw?</option>
+          <option value="spoke">seen?</option>
+          <option value="spoke">seed?</option>
+        </select>
+        <br><br>
+         </p><br>
+
+     <p> Q2]
+           I
+       <select id="game1question2">
+         <option value="am use">am use</option>
+         <option value="use">use</option>
+         <option value="am used">am used</option>
+         <option value="used">used</option>
+       </select> to live in Mumbai, but now I live in Melbourne.
+       <br><br>
+      </p><br>
+
+   <p> Q3]
+         Why
+     <select id="game1question3">
+       <option value="was">was</option>
+       <option value="were">were</option>
+       <option value="are">are</option>
+       <option value="did">did</option>
+     </select> you late to college this morning ?
+     <br><br
+   </p><br>
+
+  <p> Q4]
+        He turned the job
+    <select id="game1question4">
+      <option value="out">out</option>
+      <option value="up">up</option>
+      <option value="in">in</option>
+      <option value="down">down</option>
+    </select> you late to college this morning ?
+    <br><br>
+  </p>
+
+<br>
+<button type="button" id='game1answers'>Submit</button>
+<br>
+<br>
+
+ </div>
+ </div>
+
+
+ <!-- Game 2 START-->
+
+ <div id="game2screen" style="background-color:rgba(224, 226, 220, 0.611765)">
+
+  <br><br>
+
+    <br>
+     <h2> Game 2 : Fill in the Blanks with appropriate Pronoun:</h2>
+     <br><br>
+     <div style="background-color:#868080">
+       <h2>Time Remaining :</h2>
+
+       <div id="countdowntimer"><span id="timer2"><span></div>
+     </div>
+  <br><br>
+
+  <p>
+
+  Q1] Peter's father asked <input id="g2a1"> to clean the room. (her/him)<br><br>
+  Q2] Did he see <input id="g2a2"> ? (us/them)<br><br>
+  Q3] My sister and <input id="g2a3"> went to park. (I/We)<br><br>
+  Q4] Where will <input id="g2a4"> go from here ? (you/they)<br><br>
+
+</p>
+        <br>
+        <button type="button" id='game2answers'>Submit</button>
+        <br>
+        <br>
+ </div>
+
+
+ <div id="contactscreen" style="background-color:rgba(224, 226, 220, 0.611765)">
+   <br><br><br>
+
+<h2>Contact Us </h2>
+<br><br>
+
+
+<form id="contact">
+  First name:<br>
+  <input type="text" name="firstname" >
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+  <br>
+  E-mail:<br>
+
+ <input type="text" name="mail"><br><br>
+Comment:<br>
+<input type="text" name="comment" width="500" height="450px"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+ </div>
+
+ <!-- Div for About Us -->
+ <div id="aboutscreen">
+
+<img src="images/aboutus.png">
+   <h3 style="color:grey"> <p>There are various rules, structure and expression in any language. Its difficult to remember them easily at the first go. Grammar is study of words and the way in which they grind together to form a language. So in order to help student learn English grammar with ease, mobile app is finest choice as mobile phone are very common these days, every student are accustomed with it’s in and out function.
+
+     <br><br></p>
+     <p>
+        Therefore mobile app would eventually make these learning processes a fun experience for any student. English language has structures in the form of words, sentences, phrases and clauses. This mobile application will teach student about basic grammar rules which include noun, pronoun, verb, adverb, adjective, clauses, active or passive voices, preposition, conjunctions, question tag and many more things</p> </h3>
+ <br>
+</div>
+
+ <!-- Div for Various Features-->
+
+  </div>
+<!-- Footer-->
+  <div id="footer">
+  Copyright @ Deakin University
+  </div>
+<!-- Footer-->
+</body>
+</html>
